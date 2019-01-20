@@ -1,8 +1,8 @@
 #!/sbin/sh
 ##########################################################################################
 #
-# Magisk Module Template Install Script
-# by topjohnwu
+# Call Recorder Add-on Install Script
+# by topjohnwu, modified by skvalex
 #
 ##########################################################################################
 
@@ -138,6 +138,9 @@ $LATESTARTSERVICE && cp -af $INSTALLER/common/service.sh $MODPATH/service.sh
 
 ui_print "- Setting permissions"
 set_permissions
+
+ui_print "- Installing APK"
+pm install -r $MODPATH/system/priv-app/CallRecorderAddOn/CallRecorderAddOn.apk 1>/dev/null
 
 ##########################################################################################
 # Finalizing
