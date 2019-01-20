@@ -1,0 +1,8 @@
+id=CallRecorderAddOn
+name=Call Recorder Add-on
+version=v2.0.5
+versionCode=1
+author=skvalex
+description=This is add-on for Call Recorder - SKVALEX to provide advanced features
+minMagisk=17000
+support=http://forum.xda-developers.com/showthread.php?t=1441643
