@@ -19,6 +19,8 @@ Support threads (APKs available):
 
 * 4pda.ru (in russian): https://4pda.ru/forum/index.php?showtopic=263718
 
+Terms of Use and Privacy Policy: https://skvalex.org/terms
+
 ## Changelog
 ### v.2.0.5
 * created Magisk module
