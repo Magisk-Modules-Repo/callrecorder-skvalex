@@ -22,6 +22,9 @@ Support threads:
 
 Terms of Use and Privacy Policy: https://skvalex.org/terms
 
-## Changelog
-### v.3.0.8
+## Changelog for Add-on
+### v.2.0.6
+* fixed crash for pre-Pie devices
+
+### v.2.0.5
 * created Magisk module
