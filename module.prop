@@ -1,7 +1,7 @@
-id=CallRecorderAddOn
-name=Call Recorder Add-on
-version=v2.0.5
+id=callrecorder-skvalex
+name=Call Recorder - SKVALEX
+version=3.0.8
 versionCode=1
 author=skvalex
-description=This is add-on for Call Recorder - SKVALEX to provide advanced features
+description=App to record phone calls from the line with a power of root and magisk
 minMagisk=17000

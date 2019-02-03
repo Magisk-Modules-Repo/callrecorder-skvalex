@@ -1,7 +1,7 @@
 #!/sbin/sh
 ##########################################################################################
 #
-# Call Recorder Add-on Install Script
+# Call Recorder - SKVALEX Install Script
 # by topjohnwu, modified by skvalex
 #
 ##########################################################################################
@@ -136,11 +136,20 @@ $POSTFSDATA && cp -af $INSTALLER/common/post-fs-data.sh $MODPATH/post-fs-data.sh
 # service mode scripts
 $LATESTARTSERVICE && cp -af $INSTALLER/common/service.sh $MODPATH/service.sh
 
+# apk
+cp -af $INSTALLER/common/CallRecorder.apk $MODPATH/CallRecorder.apk
+
 ui_print "- Setting permissions"
 set_permissions
 
-ui_print "- Installing APK"
+ui_print "- Installing Add-on APK"
 pm install -r -g $MODPATH/system/priv-app/CallRecorderAddOn/CallRecorderAddOn.apk || true
+
+ui_print "- Installing application APK"
+pm install -r $MODPATH/CallRecorder.apk || true
+
+# Remove apk
+rm -f $MODPATH/CallRecorder.apk 2>/dev/null
 
 ##########################################################################################
 # Finalizing

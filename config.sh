@@ -1,6 +1,6 @@
 ##########################################################################################
 #
-# Call Recorder Add-on Config Script
+# Call Recorder - SKVALEX Config Script
 # by topjohnwu, modified by skvalex
 #
 ##########################################################################################
@@ -30,8 +30,7 @@ LATESTARTSERVICE=false
 
 print_modname() {
   ui_print "*******************************"
-  ui_print "     Call Recorder Add-on      "
-  ui_print "          by skvalex           "
+  ui_print "*   Call Recorder - SKVALEX   *"
   ui_print "*******************************"
 }
 
