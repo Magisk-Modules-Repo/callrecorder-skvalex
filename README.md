@@ -1,5 +1,5 @@
 # Call Recorder - SKVALEX
-App to record both sides from the line with a power of root and magisk.
+Call recording app to record both sides from the line with a power of root and magisk.
 
 This module allows the app ([Call Recorder - SKVALEX](https://play.google.com/store/apps/details?id=org.skvalex.cr)) to use advanced root features, such as:
 - Record both sides (including Android 9 Pie)
