@@ -23,6 +23,10 @@ Support threads:
 Terms of Use and Privacy Policy: https://skvalex.org/terms
 
 ## Changelog for Add-on
+### v.2.0.8
+* improved ability to detect answer on outgoing calls
+* fixed bug with recording on Android 9
+
 ### v.2.0.7
 * recording issue fixed on Samsung devices
 
