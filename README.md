@@ -10,7 +10,7 @@ If you already have installed the main app, install this module to get advanced 
 ## How to use it
 After successful installation of this magisk module, you'll see a new `ROOT` recording method and option `Start recording on answer` in `Settings` → `Recording` of the main app. Also, a star `★` will be shown prior audio source name selected in `Settings` → `Recording` → `Standard API`.
 
-It's recommended to keep using Standard API recording method with `★ Voice call uplink + download` audio source. In case it doesn't work for you as expected, try luck with `ROOT` recording method.
+It's recommended to keep using Standard API recording method with `★ Voice call uplink + downlink` audio source. In case it doesn't work for you as expected, try luck with `ROOT` recording method.
 
 ## Links
 Google Play: https://play.google.com/store/apps/details?id=org.skvalex.cr
