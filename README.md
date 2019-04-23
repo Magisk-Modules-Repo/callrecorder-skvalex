@@ -26,7 +26,7 @@ Terms of Use and Privacy Policy: https://skvalex.org/terms
 ### v.2.1.0
 * updated magisk module format
 * moved the code for the ROOT method to the main app, so it's removed from the add-on
-* removed self-update mechianism from add-on as the main app can now have it itself
+* removed self-update mechanism from add-on as the main app can now have it itself
 
 ### v.2.0.8
 * improved ability to detect answer on outgoing calls
