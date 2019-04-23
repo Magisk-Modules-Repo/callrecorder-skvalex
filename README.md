@@ -13,7 +13,7 @@ After successful installation of this magisk module, you'll see a new `ROOT` rec
 It's recommended to keep using Standard API recording method with `★ Voice call uplink + downlink` audio source. In case it doesn't work for you as expected, try luck with `ROOT` recording method.
 
 ## Links
-Google Play: https://play.google.com/store/apps/details?id=org.skvalex.cr
+Download the app: https://callrecorder.skvalex.com/get
 
 Support threads:
 * XDA: https://forum.xda-developers.com/showthread.php?t=1441643
@@ -23,6 +23,11 @@ Support threads:
 Terms of Use and Privacy Policy: https://skvalex.org/terms
 
 ## Changelog for Add-on
+### v.2.1.0
+* updated magisk module format
+* moved the code for the ROOT method to the main app, so it's removed from the add-on
+* removed self-update mechianism from add-on as the main app can now have it itself
+
 ### v.2.0.8
 * improved ability to detect answer on outgoing calls
 * fixed bug with recording on Android 9
