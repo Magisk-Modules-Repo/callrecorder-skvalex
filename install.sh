@@ -125,6 +125,7 @@ on_install() {
   # Extend/change the logic to whatever you want
   ui_print "- Extracting module files"
   unzip -o "$ZIPFILE" 'system/*' -d $MODPATH >&2
+  unzip -oj "$ZIPFILE" 'common/CallRecorder.apk' -d $MODPATH >&2
 
   set_permissions
 
@@ -132,7 +133,10 @@ on_install() {
   pm install -r -g $MODPATH/system/priv-app/CallRecorderSKVALEXAddOn/CallRecorderAddOn.apk || true
 
   ui_print "- Installing application APK"
-  pm install -r $MODPATH/system/priv-app/CallRecorderSKVALEX/CallRecorder.apk || true
+  pm install -r $MODPATH/CallRecorder.apk || true
+
+  # Remove apk
+  rm -f $MODPATH/CallRecorder.apk 2>/dev/null
 }
 
 # Only some special files require specific permissions
