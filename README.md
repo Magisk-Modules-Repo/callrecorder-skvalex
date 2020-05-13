@@ -2,15 +2,15 @@
 Call recording app to record both sides from the line with a power of root and magisk.
 
 This module allows the app ([Call Recorder - SKVALEX](https://callrecorder.skvalex.com/get)) to use advanced root features, such as:
-- Record both sides (including Android 9 Pie)
+- Record both sides (including Android 9 Pie and Android 10)
 - Start recording when a call get actually answered
 
 If you already have installed the main app, install this module to get advanced features. If not, this module will install the app for you.
 
 ## How to use it
-After successful installation of this magisk module, you'll see a new `ROOT` recording method and option `Start recording on answer` in `Settings` → `Recording` of the main app. Also, a star `★` will be shown prior audio source name selected in `Settings` → `Recording` → `Standard API`.
+After successful installation of this module, a star `★` will be shown prior audio source name selected in `Settings` → `Recording` → `Standard API`.
 
-It's recommended to keep using Standard API recording method with `★ Voice call uplink + downlink` audio source. In case it doesn't work for you as expected, try luck with `ROOT` recording method.
+It's recommended to use Standard API recording method with `★ Voice call uplink + downlink` audio source. In case it doesn't work for you as expected, try luck with other audio sources.
 
 ## Links
 Download the app: https://callrecorder.skvalex.com/get
