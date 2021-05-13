@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<permissions>
-    <privapp-permissions package="org.skvalex.cr">
-        <permission name="android.permission.READ_LOGS"/>
-    </privapp-permissions>
-</permissions>

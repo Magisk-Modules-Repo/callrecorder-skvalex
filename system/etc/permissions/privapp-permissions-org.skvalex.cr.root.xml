@@ -2,7 +2,6 @@
 <permissions>
     <privapp-permissions package="org.skvalex.cr.root">
         <permission name="android.permission.CAPTURE_AUDIO_OUTPUT"/>
-        <permission name="android.permission.READ_PRECISE_PHONE_STATE"/>
         <permission name="android.permission.READ_LOGS"/>
     </privapp-permissions>
 </permissions>
