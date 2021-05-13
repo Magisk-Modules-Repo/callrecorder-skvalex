@@ -23,9 +23,11 @@ Support threads:
 Terms of Use and Privacy Policy: https://skvalex.org/terms
 
 ## Changelog
-### v.2.1.0 (3.2.5)
-* main app is now system: might help to not being killed by the system
+### v.2.1.0 (3.4.5)
+* main app is not system anymore as it brings more problems than benefits: it's still being killed by battery optimizers and some ROMs don't allow to install apk updates
 
+### v.2.1.0 (3.2.5)
+* main app is now system: might help to not being killed by the system  
 
 ## Changelog for Add-on
 ### v.2.1.0
