@@ -23,6 +23,9 @@ Support threads:
 Terms of Use and Privacy Policy: https://skvalex.org/terms
 
 ## Changelog
+### v.2.1.1 (3.5.0)
+* support Magisk 24 update mechanism
+
 ### v.2.1.0 (3.4.7)
 * main app is system again
 
