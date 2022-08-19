@@ -12,6 +12,11 @@ After successful installation of this module, a star `★` will be shown prior a
 
 It's recommended to use Standard API recording method with `★ Voice call uplink + downlink` audio source. In case it doesn't work for you as expected, try luck with other audio sources.
 
+## Notes
+- In most cases [the app](https://callrecorder.skvalex.com/get) will work fine by just providing root access. So you may install app first and if you can see a star prior audio source name in `Settings` → `Recording` → `Standard API`, then Magisk module will not make any difference
+- On Xiaomi devices you should allow auto-start before installing this module, otherwise you won't find this option. If you already installed this module, then uninstall it to allow auto-start
+- The module makes the app system, so it might also help to get the app not killed by the system. But as the practice shows the most important thing is to allow auto-start/auto-launch and lock the app in recents. Please read [best practices](https://skvalex.org/help/best-practices) page and [dontkillmyapp.com](https://dontkillmyapp.com) for more specific advices
+
 ## Links
 Download the app: https://callrecorder.skvalex.com/get
 
