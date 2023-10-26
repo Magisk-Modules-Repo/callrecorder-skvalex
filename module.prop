@@ -1,7 +1,7 @@
 id=callrecorder-skvalex
 name=Call Recorder - SKVALEX
-version=2.3.0 (3.6.3)
-versionCode=50
+version=2.3.0 (3.6.4)
+versionCode=51
 author=skvalex
 description=App to record phone calls from the line with a power of root and Magisk
 updateJson=https://raw.githubusercontent.com/skvalex/callrecorder/updates/magisk.json
