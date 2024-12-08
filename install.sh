@@ -129,11 +129,15 @@ on_install() {
 
   set_permissions
 
-  ui_print "- Installing Add-on APK"
-  pm install -r -g $MODPATH/system/priv-app/CallRecorderSKVALEXAddOn/CallRecorderAddOn.apk || true
-
   ui_print "- Installing application APK"
+  pm install $MODPATH/system/priv-app/CallRecorderSKVALEX/CallRecorder.apk >/dev/null 2>/dev/null || true
   pm install -r $MODPATH/CallRecorder.apk || true
+
+  pm grant org.skvalex.cr android.permission.CAPTURE_AUDIO_OUTPUT >/dev/null 2>/dev/null || true
+  pm grant org.skvalex.cr android.permission.READ_LOGS >/dev/null 2>/dev/null || true
+
+  ui_print "- Uninstalling old add-on if it's installed"
+  pm uninstall org.skvalex.cr.root >/dev/null 2>/dev/null || true
 
   # Remove apk
   rm -f $MODPATH/CallRecorder.apk 2>/dev/null

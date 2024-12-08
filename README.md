@@ -28,6 +28,9 @@ Support threads:
 Terms of Use and Privacy Policy: https://skvalex.org/terms
 
 ## Changelog
+### v.3.6.7
+* not using add-on anymore
+
 ### v.2.2.0 (3.5.5)
 * fixes silent recording on Android 13 with the latest security update
 
