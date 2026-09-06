@@ -1,4 +1,14 @@
 # Call Recorder - SKVALEX
+
+> **This module is no longer updated.** The last version is 3.7.4 (module v.61).
+>
+> You do not need it anymore. The app records both sides on rooted phones by itself:
+> install [Call Recorder - SKVALEX](https://callrecorder.skvalex.com/get), open the setup
+> wizard and choose **Root**. The app then keeps itself up to date.
+>
+> If you already have this module, you can keep it. Nothing changes for you. If you remove it,
+> the app stays installed and the root setup in the app takes over.
+
 Call recording app to record both sides from the line with a power of root and magisk.
 
 This module allows the app ([Call Recorder - SKVALEX](https://callrecorder.skvalex.com/get)) to use advanced root features, such as:
